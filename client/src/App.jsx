@@ -4,13 +4,13 @@ import './App.css'
 
 
 import NavBar from './react_components/NavBar.jsx'
-import Sign_In from './react_components/Sign_In.jsx'
-import Sign_Up from './react_components/Sign_Up.jsx'
-import Home from './react_components/Home.jsx'
-import Add_Transactions from './react_components/Add_Transactions.jsx'
-import Expenses_Incomes from './react_components/Expenses_Incomes.jsx'
-import Savings from './react_components/Savings.jsx'
-import Investments from './react_components/Investments.jsx'
+import Sign_In from './pages/Sign_In.jsx'
+import Sign_Up from './pages/Sign_Up.jsx'
+import Home from './pages/Home.jsx'
+import Add_Transactions from './pages/Add_Transactions.jsx'
+import Expenses_Incomes from './pages/Expenses_Incomes.jsx'
+import Savings from './pages/Savings.jsx'
+import Investments from './pages/Investments.jsx'
 
 
 function App() {
