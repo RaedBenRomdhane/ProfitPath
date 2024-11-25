@@ -1,0 +1,84 @@
+/* General Page Styling */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #08519C; /* Deep Blue */
+  }
+  
+  /* Container Styling */
+  .auth-container {
+    background-color: #f0f4f8; /* Lighter Blue */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Title and Subtitle */
+  .auth-title {
+    font-size: 2rem;
+    color: #08519C; /* Deep Blue */
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth-subtitle {
+    font-size: 1rem;
+    color: #666; /* Grey */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Styling */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc; /* Light Grey */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .auth-input:focus {
+    outline: none;
+    border-color: #08519C; /* Deep Blue */
+    box-shadow: 0 0 5px rgba(8, 81, 156, 0.5);
+  }
+  
+  /* Button Styling */
+  .auth-button {
+    background-color: #08519C; /* Deep Blue */
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .auth-button:hover {
+    background-color: #0073e6; /* Slightly lighter blue */
+  }
+  
+  /* Footer and Link */
+  .auth-footer {
+    font-size: 0.9rem;
+    color: #666; /* Grey */
+    margin-top: 1rem;
+  }
+  
+  .auth-link {
+    color: #08519C; /* Deep Blue */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
