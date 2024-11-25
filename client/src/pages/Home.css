@@ -1,0 +1,133 @@
+/* General Styles */
+.home-page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #08519C; /* Blue background */
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Account Balance Section */
+  .account-balance-section {
+    width: 100%;
+  }
+  
+  .balance-card {
+    background-color: #08519C;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .balance-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .balance-amount {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 0 0;
+  }
+  
+  /* Transactions Section */
+  .transactions-section {
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .transactions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .transaction-amount {
+    font-weight: bold;
+  }
+  
+  .transaction-amount.positive {
+    color: #4caf50; /* Green for positive transactions */
+  }
+  
+  .transaction-amount.negative {
+    color: #f44336; /* Red for negative transactions */
+  }
+  
+  .transaction-category {
+    color: #555;
+  }
+  
+  /* Actions Section */
+  .actions-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .action-button {
+    display: block;
+    /*width: 90%;*/
+    width:300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-transactions {
+    background-color: #08519C; /* Blue for primary action */
+  }
+  
+  .check-expenses,
+  .check-incomes {
+    background-color: #c1c1c1; /* Grey for secondary actions */
+    color: black;
+  }
+  
+  .add-saving {
+    background-color: #0073e6; /* Lighter blue */
+  }
+  
+  .investments {
+    background-color: #08519C; /* Blue */
+  }
+  
+  .row-buttons{
+    display: flex;
+    flex-direction: row;
+  }
