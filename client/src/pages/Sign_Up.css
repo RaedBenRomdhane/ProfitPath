@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #08519C; /* Deep Blue */
+    /*background-color: #08519C;*/ /* Deep Blue */
+    background-color:#9ECAE1;
   }
   
   /* Container Styling */

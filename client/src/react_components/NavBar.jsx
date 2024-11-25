@@ -11,12 +11,12 @@ const NavBar = () => {
       </div>
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/Add_Transactions">Add_Transactions</a></li>
-        <li><a href="/Expenses_Incomes">Expenses_Incomes</a></li>
+        <li><a href="/Add_Transactions">Add Transactions</a></li>
+        <li><a href="/Expenses_Incomes">Expenses Incomes</a></li>
         <li><a href="/Savings">Savings</a></li>
         <li><a href="/Investments">Investments</a></li>
-        <li><a href="/Sign_In">Sign_In</a></li>
-        <li><a href="/Sign_Up">Sign_Up</a></li>
+        <li><a href="/Sign_In" className="btn btn-signin">Sign In</a></li>
+        <li><a href="/Sign_Up" className="btn btn-signup">Sign Up</a></li>
       </ul>
     </nav>
   );

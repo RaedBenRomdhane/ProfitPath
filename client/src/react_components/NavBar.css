@@ -6,6 +6,7 @@
     background-color: #08519C;
     padding: 1rem 2rem;
     color: white;
+    overflow: auto;
   }
   
   .navbar-logo a {
@@ -37,3 +38,29 @@
     color: #00bcd4;
   }
   
+  /* Button Styling for Sign In and Sign Up */
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-signin {
+  background-color: grey; /* Grey for Sign In */
+}
+
+.btn-signin:hover {
+  background-color: #666; /* Darker Grey on hover */
+}
+
+.btn-signup {
+  background-color: #0073e6; /* Lighter Blue for Sign Up */
+}
+
+.btn-signup:hover {
+  background-color: #005bb5; /* Slightly darker blue on hover */
+}
