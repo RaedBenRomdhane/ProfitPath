@@ -1,0 +1,117 @@
+.investments-page {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.portfolio-section {
+  width: 100%;
+}
+
+.portfolio-card {
+  background-color: #32ADE6;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.portfolio-amount {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0 0;
+}
+
+.investments-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.investment-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.investment-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.investment-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.investment-type {
+  font-size: 14px;
+  color: #666;
+}
+
+.investment-value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.investment-amount {
+  font-weight: bold;
+  color: #08519C;
+}
+
+.investment-change {
+  font-size: 14px;
+}
+
+.change-positive {
+  color: #4caf50;
+}
+
+.change-negative {
+  color: #f44336;
+}
+
+.action-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.investment-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.add-investment {
+  background-color: #08519C;
+}
+
+.view-portfolio {
+  background-color: #0073e6;
+}
+
+.investment-history {
+  background-color: #c1c1c1;
+  color: black;
+} 

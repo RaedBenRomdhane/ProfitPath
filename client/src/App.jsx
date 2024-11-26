@@ -7,7 +7,6 @@ import NavBar from './react_components/NavBar.jsx'
 import Sign_In from './pages/Sign_In.jsx'
 import Sign_Up from './pages/Sign_Up.jsx'
 import Home from './pages/Home.jsx'
-import Add_Transactions from './pages/Add_Transactions.jsx'
 import Expenses_Incomes from './pages/Expenses_Incomes.jsx'
 import Savings from './pages/Savings.jsx'
 import Investments from './pages/Investments.jsx'
@@ -19,13 +18,12 @@ function App() {
     <>
       <NavBar/>
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Sign_In" element={<Sign_In/>}/>
-      <Route path="/Sign_Up" element={<Sign_Up/>}/>
-      <Route path="/Add_Transactions" element={<Add_Transactions/>}/>
-      <Route path="/Expenses_Incomes" element={<Expenses_Incomes/>}/>
-      <Route path="/Savings" element={<Savings/>}/>
-      <Route path="/Investments" element={<Investments/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Sign_In" element={<Sign_In/>}/>
+        <Route path="/Sign_Up" element={<Sign_Up/>}/>
+        <Route path="/Expenses_Incomes" element={<Expenses_Incomes/>}/>
+        <Route path="/Savings" element={<Savings/>}/>
+        <Route path="/Investments" element={<Investments/>}/>
       </Routes>
     </>
   )
