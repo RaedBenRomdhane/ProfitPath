@@ -19,13 +19,13 @@ function App() {
     <>
       <NavBar/>
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Sign_In" element={<Sign_In/>}/>
-      <Route path="/Sign_Up" element={<Sign_Up/>}/>
-      <Route path="/Add_Transactions" element={<Add_Transactions/>}/>
-      <Route path="/Expenses_Incomes" element={<Expenses_Incomes/>}/>
-      <Route path="/Savings" element={<Savings/>}/>
-      <Route path="/Investments" element={<Investments/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Sign_In" element={<Sign_In/>}/>
+        <Route path="/Sign_Up" element={<Sign_Up/>}/>
+        <Route path="/Add_Transactions" element={<Add_Transactions/>}/>
+        <Route path="/Expenses_Incomes" element={<Expenses_Incomes/>}/>
+        <Route path="/Savings" element={<Savings/>}/>
+        <Route path="/Investments" element={<Investments/>}/>
       </Routes>
     </>
   )

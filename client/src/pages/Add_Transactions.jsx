@@ -41,12 +41,14 @@ function Add_Transactions(){
 
         <div className="input-group">
           <span className="input-icon">&#128247;</span>
-          <input
-            type="text"
-            placeholder="Select Category"
-            className="input-field"
-          />
+          <select className="input-field">
+            <option value="" disabled selected>Select Category</option>
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+            <option value="category3">Category 3</option>
+          </select>
         </div>
+
 
         <div className="input-group">
           <span className="input-icon">&#9998;</span>
