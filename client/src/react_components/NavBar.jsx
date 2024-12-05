@@ -1,7 +1,4 @@
-
-import React from 'react';
-import './NavBar.css'; // Import the CSS file for styling
-
+import './NavBar.css';
 
 const NavBar = () => {
   return (
@@ -11,7 +8,6 @@ const NavBar = () => {
       </div>
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/Add_Transactions">Add Transactions</a></li>
         <li><a href="/Expenses_Incomes">Expenses Incomes</a></li>
         <li><a href="/Savings">Savings</a></li>
         <li><a href="/Investments">Investments</a></li>

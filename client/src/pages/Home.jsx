@@ -1,9 +1,10 @@
-import React from 'react';
 import './Home.css';
+import { useNavigate } from 'react-router-dom';
 
 function Home(){
+  const navigate = useNavigate();
 
-    return(<>
+  return(<>
     <div className="home-page">
       {/* Account Balance Section */}
       <section className="account-balance-section">
@@ -39,15 +40,15 @@ function Home(){
       {/* Action Buttons Section */}
       <section className="actions-section">
         <div className="row-buttons">
-            <button className="action-button add-transactions">+ Add Transactions</button>
+            <button className="action-button add-transactions" onClick={() => navigate('/Expenses_Incomes')}>+ Add Transactions</button>
         </div>
         <div className="row-buttons">
-          <button className="action-button check-expenses">Check Expenses</button>
-          <button className="action-button check-incomes">Check Incomes</button>
+          <button className="action-button check-expenses" onClick={() => navigate('/Expenses_Incomes')}>Check Expenses</button>
+          <button className="action-button check-incomes" onClick={() => navigate('/Expenses_Incomes')}>Check Incomes</button>
         </div>
         <div className="row-buttons">
-          <button className="action-button add-saving">Add Saving</button>
-          <button className="action-button investments">Investments</button>
+          <button className="action-button add-saving" onClick={() => navigate('/Savings')}>Add Saving</button>
+          <button className="action-button investments" onClick={() => navigate('/Investments')}>Investments</button>
         </div>
       </section>
     </div>
